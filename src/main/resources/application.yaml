@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:mydb
+    username: user123
+    password: password123
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+  cloud:
+    config:
+      enabled: false
+
+feignClient:
+  url: https://api.fiscaldata.treasury.gov/services/api/fiscal_service/
+  path: v1/accounting/od/rates_of_exchange
