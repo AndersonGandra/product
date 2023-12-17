@@ -1,6 +1,6 @@
 # product
 
-##Project tech choices:
+## Project tech choices:
 
 - Java 21
 - Hexagonal architecture
@@ -10,20 +10,20 @@
 - Feign Client (Synchronous REST Client to retrieve data from the Exchange API)
 
 
-##Some considerations:
+## Some considerations:
 
 Regarding the decision to use the hexagonal architecture, in a small domain like this project, 
 it can introduce unnecessary complexity. It was just used to exercise and demonstrate how I use it.
  
  
-##Sugested improvements:
+## Sugested improvements:
 
 - Unit Tests (JUnit)
 - Logging critical points
 - Circuit Breaker/Fallback in the external API request
 - Improving the API resilience level by using CompletableFuture and Async
 
-##Installing Maven Dependencies / Testing via Postman:
+## Installing Maven Dependencies / Testing via Postman:
 
  mvn clean install -U
  
