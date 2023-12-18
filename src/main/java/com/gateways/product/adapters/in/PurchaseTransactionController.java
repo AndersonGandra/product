@@ -19,6 +19,7 @@ public class PurchaseTransactionController {
     private final PurchaseUseCase purchaseUseCase;
 
     public PurchaseTransactionController(PurchaseUseCase purchaseUseCase) {
+
         this.purchaseUseCase = purchaseUseCase;
     }
 

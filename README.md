@@ -6,7 +6,7 @@
 - Hexagonal architecture
 - Spring Boot 3
 - Maven 3
-- H2 Database (Embeded, in memory)
+- H2 Database (Embedded, in memory)
 - Feign Client (Synchronous REST Client to retrieve data from the Exchange API)
 
 
@@ -18,9 +18,9 @@ it can introduce unnecessary complexity. It was just used to exercise and demons
  
 ## Sugested improvements:
 
-- Unit Tests (JUnit)
+- Completing unit tests coverage (JUnit)
 - Logging critical points
-- Circuit Breaker/Fallback in the external API request
+- Circuit Breaker/Fallback in the external API request (Resilience4J)
 - Improving the API resilience level by using CompletableFuture and Async
 
 ## Installing Maven Dependencies / Testing via Postman:
